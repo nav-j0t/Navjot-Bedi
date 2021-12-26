@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+:root {
+  --mainText: rgba(88, 89, 91);
+  --maintextFont: "Ubuntu Mono", monospace;
+  --cardbg: rgba(242, 240, 238, 1);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: var(--mainText);
+}
+
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 16px;
+}
+
+p,
+li,
+span,
+label,
+input,
+textarea {
+  color: var(--secondaryText);
+}
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-container {
+    width: 95%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--mainText);
+}
+
+ul {
+  list-style: none;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.next-line-bedi {
+  margin-top: -20px;
+  padding-left: 30px;
+}
+
+.photo-img {
+  padding-left: 70px !important;
+  margin-top: 0px !important;
+}
+
+.email {
+  margin-left: 60px !important;
+}
+
+.nav-icons {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-icons a {
+  margin:0px 5px;
+  padding: 0px 10px;
+}
+
+.email{
+  width: 40%;
+}
+
+
+.navbutton{
+  padding: 50px 25px;
+}
+
+
+.photo-img img {
+  height: 500px !important;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  width: 128px !important;
+}
+
+.side-panel a img {
+  size: 30px;
+  width: 30px !important;
+}
+
+.icons {
+  margin-top: 200px;
+}
+
+.icons a img {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.main {
+  padding: 30px 35px;
+  margin: 40px 0px;
+}
+
+.about .main-container .flex-wrapper2 {
+  background-color: grey;
+  display: block;
+}
+
+.icon-wrapper {
+  width: 128px;
+}
+
+.txt {
+  padding-left: 30px;
+  font-family: var(--maintextFont);
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.things-i-do {
+  background-color: rgba(242, 240, 238, 1);
+  border-radius: 20px;
+}
+
+.text2 {
+  margin-bottom: 10px;
+}
+
+.me {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(242, 240, 238, 1);
+  border-radius: 20px;
+
+  padding-top: 17px !important;
+  padding-left: 17px !important;
+  margin-left: 95px !important;
+  margin-top: 70px;
+
+  box-shadow: -1px 1px 157px 1px rgba(0,0,0,0.28);
+-webkit-box-shadow: -1px 1px 157px 1px rgba(0,0,0,0.28);
+-moz-box-shadow: -1px 1px 157px 1px rgba(0,0,0,0.28);
+}
+
+.image img {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.side-of-me {
+  padding-left: 40px;
+  padding-top: 30px;
+  line-height: 50px;
+  text-align: left;
+}
+
+.whoami {
+  color: rgb(81, 156, 6);
+  font-family: var(--maintextFont);
+  font-weight: bolder;
+  size: 20px;
+}
+
+.me-icons img {
+  height: 32px;
+  width: 32px;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons-container img {
+  margin-top: 10px;
+  margin-right: 13px;
+}
+
+.icons-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.icons {
+  margin-left: 0px !important;
+  padding-left: 17px !important;
+}
+
+.upper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.title img {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 16px;
+}
+
+.productlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  padding: 0px 30px;
+  border-radius: 14%;
+  margin: 20px;
+}
+
+.projectslist {
+  padding-top: 20px !important;
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+  background-color: var(--cardbg);
+  border-radius: 30px;
+}
+
+.cardtxt {
+  padding-bottom: 20px;
+  margin: 0px 10px;
+}
+
+.item {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+.page {
+  background-color: rgba(255, 255, 255);
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 20px;
+
+  box-shadow: -1px 1px 66px -18px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: -1px 1px 66px -18px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: -1px 1px 66px -18px rgba(0, 0, 0, 0.74);
+}
+
+.back {
+  padding: 64px 0px;
+  background-color: var(--cardbg);
+}
