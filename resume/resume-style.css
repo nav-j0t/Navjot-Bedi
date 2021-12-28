@@ -1,0 +1,62 @@
+
+:root {
+  --fontfamily: "Poppins", sans-serif;
+  --font-base-size: 15px;
+  --font-White-Color: rgb(121, 121, 121);
+  --card-bg: #464545;
+}
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+}
+
+.back-page-sizing {
+  padding: 20px 20px;
+}
+
+.side {
+  display: block;
+}
+
+.main {
+  background-color: rgb(46, 92, 82);
+  display: block;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  background-color: var(--card-bg);
+  border-radius: 25px;
+}
+
+.image-logo img {
+  width: 177px;
+  height: 177px;
+}
+
+.image-logo {
+  padding: 10px 10px;
+  background-color: darkgray;
+  border-radius: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fontfamily);
+  color: white;
+}
+
+.name{
+    justify-content: center;
+}
