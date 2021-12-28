@@ -388,3 +388,457 @@ ul {
   border-top-right-radius: 15px !important;
   border-bottom-right-radius: 15px !important;
 }
+
+@media only screen and (max-width: 1355px) {
+  .things-i-do {
+    width: 750px !important;
+  }
+  .projectslist {
+    width: 800px !important;
+  }
+  .barline {
+    width: 800px !important;
+  }
+}
+
+@media only screen and (max-width: 1344px) {
+  .things-i-do {
+    width: 700px !important;
+  }
+
+  .card {
+    width: 300px !important;
+  }
+
+  .item {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+
+  .card a img {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    border-top-left-radius: 20% !important;
+    border-top-right-radius: 20% !important;
+    border-bottom-right-radius: 20% !important;
+    border-bottom-left-radius: 20% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 225px !important;
+    height: 150px !important;
+  }
+
+  .barline {
+    width: 800px !important;
+  }
+
+  .nav-icons {
+    width: 1000px !important;
+  }
+}
+
+@media only screen and (max-width: 1284px) {
+  .me {
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .nav-icons {
+    width: 900px !important;
+  }
+  .things-i-do {
+    background-color: #fff;
+    width: 600px !important;
+  }
+  .barline {
+    width: 600px !important;
+    margin-left: 60px !important;
+  }
+  .photo-img img {
+    width: 200px !important;
+    height: 360px !important;
+  }
+}
+
+@media only screen and (max-width: 1219px) {
+  .nav-icons {
+    width: 850px !important;
+  }
+  .things-i-do {
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .nav-icons {
+    width: 800px !important;
+  }
+  .me {
+    width: 500px !important;
+  }
+  .image img {
+    width: 225px !important;
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .nav-icons {
+    width: 700px !important;
+  }
+  .email {
+    margin-left: 0px !important;
+  }
+  .things-i-do {
+    width: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .navbutton {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .things-i-do {
+    padding-left: 0px !important;
+    margin-left: -20px !important;
+  }
+  .me {
+    margin-top: 20px !important;
+    margin-left: -60px !important;
+  }
+  .main {
+    width: 600px !important;
+  }
+  .nav-icons {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    width: 700px !important;
+  }
+  .things-i-do {
+    width: 500px !important;
+  }
+
+  .me {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 550px !important;
+  }
+  .image img {
+    width: 204px !important;
+    height: 273px !important;
+  }
+
+  .image {
+    padding-left: 20px !important;
+  }
+
+  .lower {
+    width: 500px !important;
+    padding-left: 25px !important;
+  }
+  .card {
+    width: 240px !important;
+  }
+
+  .card a img {
+    margin-left: -23px !important;
+  }
+
+  .barline {
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .nav-icons {
+    width: 650px !important;
+  }
+  .barline {
+    width: 550px !important;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .email {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .navbutton {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 50px !important;
+  }
+  .side-of-me {
+    padding-left: 10px !important;
+  }
+  .me {
+    width: 500px !important;
+    margin-left: -100px !important;
+  }
+  .lower {
+    padding-left: 0px !important;
+    width: 470px !important;
+  }
+  .lower h5 {
+    margin-left: 20px !important;
+  }
+  .letschat {
+    width: 470px !important;
+  }
+  .barline {
+    width: 470px !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .row {
+    width: 400px !important;
+    display: block;
+    padding-top: 0px !important;
+  }
+  .item {
+    width: 300px !important;
+  }
+  .card {
+    width: 400px !important;
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
+  }
+  .cardtxt {
+    padding-left: 8px !important;
+  }
+  .card a img {
+    margin-left: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .nav-icons {
+    width: 600px !important;
+  }
+  .photo-img {
+    padding-left: 0px !important;
+  }
+  .nav-icons {
+    display: block;
+  }
+  .navbutton {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    padding-left: 105px !important;
+  }
+  .bottom-3 {
+    display: flex;
+    width: 400px !important;
+    padding-left: 35px !important;
+    padding-top: 15px !important;
+  }
+  .bottom-3 .navbutton {
+    padding: 0px 20px !important;
+  }
+  .footer {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .barline {
+    width: 400px !important;
+    padding-left: 30px !important;
+  }
+  .email {
+    width: 300px !important;
+    padding-top: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .main {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+  }
+  .me {
+    width: 400px !important;
+  }
+  .side-of-me {
+    padding-right: 10px !important;
+  }
+  .lower {
+    width: 370px !important;
+  }
+  .things-i-do {
+    margin-left: -70px !important;
+    padding-top: 0px !important;
+  }
+  .title {
+    padding-left: 30px !important;
+  }
+  .things-i-do h3 {
+    margin-top: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 737px) {
+  .txt {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .whoami {
+    font-size: 12px;
+  }
+  .icons a img {
+    width: 20px !important;
+  }
+  h3,
+  h4 {
+    font-size: 19px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  .navbutton a {
+    font-size: 10px;
+  }
+  .navbutton {
+    padding-left: 45px !important;
+  }
+  .title img {
+    width: 43px;
+    height: 40px;
+    margin-left: 31px;
+    margin-top: 19px;
+    margin-right: 95px;
+  }
+  .image img {
+    width: 163.2px !important;
+    height: 218.4px !important;
+  }
+  .barline {
+    width: 350px !important;
+  }
+  .back{
+    padding-top: 40px ;
+  }
+  .page {
+    margin: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .none{
+    display: none;
+  }
+  .info-label {
+    padding-left: 0px;
+  }
+  .projectslist {
+    width: 370px !important; 
+  }
+  .main {
+    width: 370px !important;
+  }
+  .photo-img img {
+    width: 100px !important;
+    height: 180px !important;
+  }
+  .image img {
+    width: 122.4px !important;
+    height: 163.8px !important;
+  }
+  .me {    margin-left: 29px !important;
+    width: 328px !important;
+  }
+  .page {
+    width: 400px !important;
+    margin-left: 10px !important;
+    margin-right: 0px !important;
+    border-radius: 0%;
+  }
+  .nav-icons {
+    width: 364px !important;
+  }
+
+  .lower {
+    width: 325px !important;
+  }
+  .lower p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text1,
+  .text2 {
+    padding-right: 40px;
+    padding-left: 0px;
+  }
+  .side-of-me {
+    padding-top: 0px;
+    padding-left: 0px !important;
+  }
+  .title {
+    padding-left: 0px !important;
+  }
+  .card {
+    width: 290px !important;
+    margin-left: 20px;
+  }
+  .projectslist {
+    padding-top: 0px !important;
+    width: 345px !important;
+  }
+  .item {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .row {
+    width: 325px !important;
+  }
+  .letschat {
+    width: 325px !important;
+    /* margin-left: -20px !important; */
+  }
+  .barline {
+    width: 325px !important;
+    padding-left: 0px !important;
+  }
+  .card a img {
+    margin-left: 0px !important;
+    padding-left: 30px;
+  }
+  .back {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* fonts balancing on 12-pro  */
+
+  .txt {
+    font-size: 19px;
+  }
+  h1 {
+    font-size: 27px;
+  }
+  .whoami {
+    font-size: 25px;
+  }
+  .icons a img {
+    width: 35px !important;
+  }
+  h3,
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 19px;
+  }
+  .navbutton a {
+    font-size: 17px;
+  }
+  .main-container {
+    margin-left: 0px;
+  }
+}
