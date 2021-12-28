@@ -841,4 +841,7 @@ ul {
   .main-container {
     margin-left: 0px;
   }
+  .cardtxt{
+    display: none;
+  }
 }
