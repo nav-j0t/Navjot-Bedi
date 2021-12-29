@@ -1,18 +1,19 @@
-
 :root {
   --fontfamily: "Poppins", sans-serif;
   --font-base-size: 15px;
-  --font-White-Color: rgb(121, 121, 121);
-  --card-bg: #464545;
+  --font-White-Color: rgb(236, 236, 236);
+  --card-bg: #3b3b3b;
 }
 
-body{
-    background-color: rgb(32, 32, 32);
+body {
+  background-color: rgb(32, 32, 32);
 }
 
 .page {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin: 30px 0px;
 }
 
 .back-page-sizing {
@@ -24,7 +25,6 @@ body{
 }
 
 .main {
-  background-color: rgb(46, 92, 82);
   display: block;
 }
 
@@ -32,8 +32,10 @@ body{
   display: flex;
   flex-direction: column;
   padding: 20px 20px;
+  margin: 0px 9px;
   background-color: var(--card-bg);
   border-radius: 25px;
+  border: 1px solid black;
 }
 
 .image-logo img {
@@ -45,6 +47,8 @@ body{
   padding: 10px 10px;
   background-color: darkgray;
   border-radius: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 h1,
@@ -52,11 +56,161 @@ h2,
 h3,
 h4,
 h5,
+p,
+a,
 h6 {
   font-family: var(--fontfamily);
   color: white;
 }
 
-.name{
-    justify-content: center;
+a {
+  text-decoration: none;
+  font-family: var(--fontfamily);
 }
+
+.name {
+  justify-content: center;
+}
+
+.bottom-icons {
+  padding: 10px 0px;
+}
+
+.bottom-icons img {
+  width: 40px;
+  margin-top: 0px;
+  margin-bottom: -15px;
+}
+
+.navjot-title {
+  background-color: rgb(131, 130, 128);
+  border-radius: 10px;
+}
+
+.navjot-title p {
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.name h2 {
+  text-align: center;
+}
+
+.social-icons a img {
+  width: 18px;
+}
+
+.social-icons a {
+  padding: 2px;
+}
+
+.connect-with-me h5 {
+  margin: 0px;
+  padding: 9px 0px;
+}
+
+.connect-with-me {
+  margin-top: 40px;
+}
+
+.subcard {
+  padding-left: 8px;
+  margin-bottom: 40px;
+}
+
+.subcard-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  margin-bottom: 40px;
+}
+
+.subcard-logo {
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: -15px;
+}
+
+.subcard-logo img {
+  width: 50px;
+}
+
+.subcard-heading h2 {
+  margin-top: 10px;
+}
+
+.margin-data {
+  margin-left: 50px;
+}
+
+.data-block-heading h4 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.data-block-heading h5 {
+  margin: 5px 0px;
+  color: rgb(89, 199, 45);
+  font-weight: normal;
+}
+
+.data-points ul li {
+    text-decoration: none;
+    font-family: var(--fontfamily);
+    color: var(--font-White-Color);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.connect-with-me h5 {
+    font-weight: normal;
+}
+
+.data-points ul {
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 1360px) {
+    .bottom-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom-icons a{
+     padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .data-points ul{
+        display: none;
+    }
+    .page{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin: 20px 0px;
+    }
+    .social-icons a img{
+        width: 30px;
+        margin: 0px 10px;
+    }
+    .hide{
+        display: none;
+    }
+   .social-icons a img{
+       margin-top: 10px;
+   }
+   .felx-at-phone{
+       display: flex;
+       justify-content: center;
+   }
+   .social-icons{
+       justify-content: center;
+   }
+}
+
