@@ -5,6 +5,7 @@
   --mainText: rgba(88, 89, 91);
   --maintextFont: "Ubuntu Mono", monospace;
   --cardbg: rgba(242, 240, 238, 1);
+  --nav: black;
 }
 
 html,
