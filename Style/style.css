@@ -851,15 +851,9 @@ ul {
 
 /* STYLISH BuTTON AT THE BOTTOM  */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
-body{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  background:#fff;
-}
+
+/* body strategy is removed from here as it was creating the conflict with the whole html file */
+
 span{
   position: relative;
   display: inline-flex;
