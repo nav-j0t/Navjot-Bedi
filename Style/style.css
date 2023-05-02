@@ -892,7 +892,7 @@ span a:before{
 span a:after{
   color: #000;
   transform: rotateX(90deg) translateZ(25px);
-  content: "NX Cyber";
+  content: "XDEV";
 }
 span a:hover{
   transform: translateZ(-25px) rotateX(-90deg);
